@@ -28,12 +28,3 @@ axis(1, at=c(0,max/2.0,max), lab=c("Thu","Fri","Sat"))
 
 dev.copy(png,"plot3.png")
 dev.off()
-
-
-
-
-
-plot(6:25,rnorm(20),type="b",xlim=c(1,30),ylim=c(-2.5,2.5),col=2)
-par(new=T)
-plot(rnorm(30),type="b",axes=F,col=3)
-par(new=F)
